@@ -1,0 +1,5 @@
+A = rand(8)
+a = max(A)
+b = max(A,[],2)
+c = max([max(a), max(b)])
+d = find(A>0.25)
