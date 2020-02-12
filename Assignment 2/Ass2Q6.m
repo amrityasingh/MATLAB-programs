@@ -1,6 +1,7 @@
 A = rand(4)
 B = inv(A)
-C = A^(-1)
+I=eye(A)
+C=I/B
 if B==C
     fprintf('Yes\n');
 else
